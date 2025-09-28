@@ -1,0 +1,51 @@
+streamlit==1.28.2
+pandas==2.1.4
+numpy==1.24.3
+plotly==5.17.0
+folium==0.15.0
+streamlit-folium==0.15.0
+networkx==3.2.1
+scikit-learn==1.3.2
+scipy==1.11.4
+requests==2.31.0
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Additional dependencies for full functionality
+torch==2.1.2
+torch-geometric==2.4.0
+gurobipy==10.0.3
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+apache-airflow==2.7.3
+kafka-python==2.0.2
+azure-eventhub==5.11.4
+azure-storage-blob==12.19.0
+azure-functions==1.18.0
+
+# Machine Learning & Optimization
+prophet==1.1.4
+xgboost==2.0.2
+optuna==3.4.0
+ortools==9.8.3296
+
+# Geospatial & Visualization
+geopandas==0.14.1
+shapely==2.0.2
+geopy==2.4.0
+contextily==1.4.0
+
+# API & Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+redis==5.0.1
+celery==5.3.4
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+structlog==23.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
