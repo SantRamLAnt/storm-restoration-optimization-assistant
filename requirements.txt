@@ -1,7 +1,15 @@
-streamlit==1.36.0
+streamlit==1.28.0
+fastapi==0.110.0
+uvicorn==0.29.0
 pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.4.2
-networkx==3.2.1
-pulp==2.7.0
-plotly==5.22.0
+xgboost==2.0.3
+torch==2.2.2
+torch-geometric==2.5.2
+pyomo==6.7.1
+gurobipy==11.0.0  # (only if you have a Gurobi license; otherwise remove)
+plotly==5.20.0
+kafka-python==2.0.2
+azure-eventhub==5.11.5
+mlflow==2.12.1
