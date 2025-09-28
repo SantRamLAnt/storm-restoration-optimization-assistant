@@ -7,8 +7,7 @@ scikit-learn==1.4.2
 xgboost==2.0.3
 torch==2.2.2
 torch-geometric==2.5.2
-pyomo==6.7.1
-gurobipy==11.0.0  # (only if you have a Gurobi license; otherwise remove)
+pulp==2.7.0
 plotly==5.20.0
 kafka-python==2.0.2
 azure-eventhub==5.11.5
